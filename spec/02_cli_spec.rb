@@ -34,6 +34,6 @@ describe './bin/greet executing a CLI Application' do
 
     output = capture_puts{ run_file("./bin/greet") }
 
-    expect(output).to include("Hello Don. It's nice to meet you.")
+    expect(output).to include("Hi! I'm HAL, what's your name?")
   end
 end
